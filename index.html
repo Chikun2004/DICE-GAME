@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice-Game</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Dice Game <img src="./Images/3d-dice-md.png" alt="Game"></h1>
+        <div class="main-container">
+            <div id="result">Winner</div>
+
+            <div class="players">
+                <div class="player-1">
+                    <h3>Player 1</h3>
+                    <img src="./Images/dice1.png" alt="player-1" id="p1"/>
+                </div>
+                <div class="player-2">
+                    <h3>Player 2</h3>
+                    <img src="./Images/dice1.png" alt="player-2" id="p2"/>
+                </div>
+            </div>
+            <button onclick="diceGame()">Start</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
